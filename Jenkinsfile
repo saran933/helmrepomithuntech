@@ -10,7 +10,7 @@ pipeline{
     }
      stage('untar code') {
        steps{
-         sh 'tar -xvf ${workspace}/Test1/java*'
+         sh 'tar -xvf ${workspace}/Test1/javawebapp-0.1.0.tgz'
        }
     }
   }
